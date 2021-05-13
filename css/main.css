@@ -367,7 +367,8 @@ aside {
     /* Header */
     header {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      padding: 33px 0;
     }
 
     header .content-wrapper{
@@ -410,14 +411,14 @@ aside {
 
     .features article {
       display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
       flex-flow: column wrap;
-      flex-basis: auto;
+      flex-basis: 50%;
     }
  
     .features .features-item-description {
-      width: 40%;
+      width: 50%;
     }
  
     /* Reviews */
@@ -432,22 +433,23 @@ aside {
  
     /* Footer */
     footer .content-wrapper {
-      width: 100%; 
+      width: 65%; 
       margin: 100px 0;
     }
     
     .footer-content {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
     }
  
     footer .contact {
-        margin-bottom: 0;
+      margin-bottom: 0;
     }
  
     footer .copyright {
-        width: 25%;
+      width: 100%;
+      text-align: center;
     }
 
     /* =========== About Page ========================== */
@@ -456,6 +458,7 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    padding-top: 20px;
     }
 
     .mission-content p {
@@ -469,7 +472,7 @@ aside {
    .contact-content {
     display: flex;
     justify-content: space-between;
-    align-items: row;
+    align-items: flex-start;
     }
 
     /* =========== FAQ Page ========================== */
@@ -479,7 +482,7 @@ aside {
     }
   
     .faq-content {
-      flex-basis: 40%;
+      flex-basis: 45%;
     }
 
     .faq h2 {
