@@ -130,11 +130,11 @@ p {
 }
  
 img {
- 
+ width: 100%;
 }
  
 figure {
- 
+ margin: 0;
 }
  
 address {
@@ -239,6 +239,8 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/jake-melara.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -290,6 +292,8 @@ input[type=button] {
  display: flex;
  justify-content: center;
  flex-flow: row wrap;
+ background: url('../img/rawpixel.jpg') center no-repeat;
+ background-size: cover;
 }
 
 .features h2{
