@@ -233,6 +233,12 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
+  width: 2em;
+  height: 2em;
+  border: 2px solid #2a423a;
+  border-radius: 5em 5em;
+  background: #2a423a;
 }
 
 footer .copyright {
@@ -315,7 +321,7 @@ input[type=button] {
 	
 .features i {
 	font-size: 3.75em;
-        margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .features .features-items {
@@ -642,6 +648,10 @@ input[type=button] {
   
     footer p {
       line-height: 1.285;
+    }
+
+    footer .social-icons p {
+      margin: 1em;
     }
  
     footer .copyright {
