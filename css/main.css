@@ -535,7 +535,7 @@ input[type=button] {
     }
 
     header figure {
-      width: 30%;
+      width: 70%;
     }
 
     header .content-wrapper{
@@ -544,7 +544,7 @@ input[type=button] {
     }
 
     header nav {
-      width: 25%;
+      width: 30%;
     }
 
     header nav ul {
@@ -616,7 +616,7 @@ input[type=button] {
     }
 
     .reviews article div {
-      width: 50%;        
+      width: 47%;        
     }
 
     .reviews h3 {
@@ -660,6 +660,9 @@ input[type=button] {
     }
 
     /* =========== About Page ========================== */
+    header img {
+      width: 50%;
+    }
 
    .mission-content {
     display: flex;
@@ -691,6 +694,9 @@ input[type=button] {
     }
 
     /* =========== FAQ Page ========================== */
+    header img {
+      width: 50%;
+    }
 
     .faq .content-wrapper {
       justify-content: space-between;
@@ -762,7 +768,7 @@ input[type=button] {
     /* Features */
 
     .features h2 {
-      width: 60%;
+      width: 90%;
     }
 
     .features article {
@@ -775,7 +781,7 @@ input[type=button] {
     }
 
     .reviews article div {
-      width: 50%;
+      width: 47%;
     }
 
     footer h4 {
