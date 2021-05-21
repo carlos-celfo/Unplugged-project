@@ -535,7 +535,7 @@ input[type=button] {
     }
 
     header figure {
-      width: 70%;
+      width: 50%;
     }
 
     header .content-wrapper{
@@ -660,10 +660,6 @@ input[type=button] {
     }
 
     /* =========== About Page ========================== */
-    header img {
-      width: 50%;
-    }
-
    .mission-content {
     display: flex;
     justify-content: space-between;
@@ -694,10 +690,6 @@ input[type=button] {
     }
 
     /* =========== FAQ Page ========================== */
-    header img {
-      width: 50%;
-    }
-
     .faq .content-wrapper {
       justify-content: space-between;
     }
